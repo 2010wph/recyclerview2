@@ -1,0 +1,22 @@
+<!-- item_user.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:text="用户名："
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:text="密码："
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="18dp" />
+
+</LinearLayout>
